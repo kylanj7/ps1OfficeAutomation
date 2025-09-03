@@ -9,7 +9,7 @@ PowerShell script that automatically responds to emails with specific subjects.
    - `$searchSubject` - Email subject to look for
    - `$recipientEmail` - Where to send the reply
    - `$autoSubject` - Reply subject
-   - `$autoBody` - Reply message
+   - `$autoBody` - Type your customized message in the "message_body.txt". This will be the message sent to your recipient.
 
 ## Usage
 
@@ -26,5 +26,6 @@ The script will:
 
 ## Requirements
 
-- Outlook must be running
+- Outlook must not be running
 - PowerShell execution enabled
+- ctrl+c to exit the program
