@@ -15,7 +15,7 @@ PowerShell script that automatically responds to emails with specific subjects.
 
 Run the script in PowerShell:
 ```powershell
-.\script.ps1
+.\autoemail.ps1
 ```
 
 The script will:
